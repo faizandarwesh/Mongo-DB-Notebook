@@ -1,0 +1,32 @@
+To run server
+// mongod
+
+To run cilent
+// mongo
+
+Create a database 
+// use <database-name>
+
+Show all databases
+//show dbs
+
+To show current database 
+// type db
+
+To insert some data
+// db.collection.insert(("name" : "apples"));
+
+delete database
+// db.dropDatabase();
+
+to query from db
+// db.collection.find();
+
+to find collections in a database
+// show collections
+
+update a document
+// db.collection.update({"key" : "value"} , {$set : {"new-key" : "new-value"} });
+
+delete a document
+// db.collection.remove({"key" : "value"});
